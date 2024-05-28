@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"strict": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"removeComments": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"target": "ES5",
+		"sourceMap": true,
+		"outDir": "./dist",
+		"incremental": true,
+		"skipLibCheck": true,
+		"strictNullChecks": false,
+		"noImplicitAny": false,
+		"strictBindCallApply": false,
+		"noFallthroughCasesInSwitch": false,
+		"resolveJsonModule": true,
+		"allowJs": false,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*", "./resources/**/*", "./images/**/*"],
+	"assets": ["resources/**", "images/**"]
+}

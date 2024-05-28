@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <style>
-        p {
-          background-image: url('./images/background.png');
-        }
-        </style>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parachute Game</title>
-    <style>
-        canvas {
-            border: 1px solid black;
-        }
-        #score {
-            position: absolute;
-            top: 10px;
-            left: 10px;
-            font-family: Arial, sans-serif;
-            font-size: 18px;
-            color: black;
-        }
-    </style>
-</head>
-<body>
-    <canvas id="gameCanvas" width="800" height="600"></canvas>
-    <div id="score">Score: 0000 | Lives: 3</div>
-    <script src="./src/main.js"></script>
-</body>
+	<style>
+		p {
+			background-image: url('./dist/images/background.png');
+		}
+	</style>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Parachute Game</title>
+		<style>
+			canvas {
+				border: 1px solid black;
+			}
+			#score {
+				position: absolute;
+				top: 10px;
+				left: 10px;
+				font-family: Arial, sans-serif;
+				font-size: 18px;
+				color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas
+			id="gameCanvas"
+			width="800"
+			height="600"
+		></canvas>
+		<div id="score">Score: 0000 | Lives: 3</div>
+		<script src="./dist/bundle.js"></script>
+	</body>
 </html>
